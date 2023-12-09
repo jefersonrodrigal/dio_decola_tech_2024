@@ -35,6 +35,10 @@ namespace ProjetoEstacionamento.Models
                     Console.WriteLine(veiculo);
                 }
             }
+            else
+            {
+                Console.WriteLine("Não existe veiculo cadastrado");
+            }
         }
 
         public void RemoverVeiculo()
@@ -43,7 +47,7 @@ namespace ProjetoEstacionamento.Models
             string placa = Console.ReadLine();
 
             if (veiculos.Any(x => x.ToUpper() == placa.ToUpper()))
-            {
+            { 
                 Console.WriteLine("Digite a quantidade de horas que o veículo permaneceu estacionado:");
                 string QtdHoras = Console.ReadLine();
                 bool parse = decimal.TryParse(QtdHoras, out decimal OutQtdHoras);
