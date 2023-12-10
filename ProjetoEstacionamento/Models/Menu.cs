@@ -26,18 +26,23 @@ namespace ProjetoEstacionamento.Models
                 switch(Opcao)
                 {
                     case "1": 
+                    Console.Clear();
                     estacionamento.AdicionarVeiculo();
                     break;
                     case "2":
+                    Console.Clear();
                     estacionamento.RemoverVeiculo();
                     break;
                     case "3":
+                    Console.Clear();
                     estacionamento.ListarVeiculos();
                     break;
                     case "4":
+                    Console.Clear();
                     Console.WriteLine("Encerrando o sistema");
                     break;
                     default:
+                    Console.Clear();
                     Console.WriteLine("Opcao invalida");
                     break;
                 }

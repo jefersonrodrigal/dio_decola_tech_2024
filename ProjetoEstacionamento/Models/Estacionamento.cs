@@ -53,6 +53,7 @@ namespace ProjetoEstacionamento.Models
                 bool parse = decimal.TryParse(QtdHoras, out decimal OutQtdHoras);
                 decimal valor = (PrecoInicial + PrecoPorHora) * OutQtdHoras;
                 Console.WriteLine($"O valor cobrado é {valor:C}");
+                veiculos.Remove(placa);
             }
         }
     }
