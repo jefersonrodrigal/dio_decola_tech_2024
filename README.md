@@ -2,7 +2,7 @@
 Desafios de codigo e outros exercicios relacionados ao bootcamp
 
 ## 1° Desafio de Codigo.
-"
+
 ### Proposta
 
 Você precisará construir uma classe chamada "Estacionamento", conforme o diagrama.
@@ -20,4 +20,16 @@ Por último, deverá ser feito um menu interativo com as seguintes ações imple
 2 Remover veículo
 3 Listar veículos
 4 Encerrar
-"
+
+
+
+## 2° Desafio de Codigo.
+
+Criar um sistema em .NET, do tipo console, mapeando uma classe abstrata 
+e classes específicas para dois tipos de celulares: Nokia e iPhone. 
+Você deve criar as suas classes de acordo com o diagrama abaixo:
+
+### Regras e validações
+A classe Smartphone deve ser abstrata, não permitindo instanciar e servindo apenas como modelo.
+A classe Nokia e Iphone devem ser classes filhas de Smartphone.
+O método InstalarAplicativo deve ser sobrescrito na classe Nokia e iPhone, pois ambos possuem diferentes maneiras de instalar um aplicativo.

@@ -11,7 +11,6 @@ namespace ProjetoEstacionamento.Models
         decimal PrecoPorHora {get; set;}
         List<string> veiculos = new List<string>();
 
-
         public Estacionamento(decimal precoInicial, decimal precoPorHora )
         {
             this.PrecoInicial = precoInicial;
